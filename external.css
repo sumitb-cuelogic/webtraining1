@@ -1,0 +1,53 @@
+body
+{
+	background-color:powederblue;
+}
+
+h1
+{
+	background-color:gray;
+	color:yellow;
+	font-family:cursive; 
+	padding:30px;
+	border:1px solid blue;
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:50px;
+
+}
+
+#p01{
+	color:red;
+	background-color:yellow;
+	font-size:150%;
+	border:2px solid powderblue;
+	padding:20px;
+	margin:100px;
+}
+
+#p02{
+
+	color:blue;
+	background-color:tomato;
+	font-size:150%;
+	border:2px solid powderblue;
+	padding:10px
+	margin:150px;
+}
+
+#p03{
+
+	color:green;
+	background-color:gray;
+	font-size:150%;
+	border:2px solid powderblue;
+	padding:5px
+	margin:200px;
+
+}
+
+p.error{
+        color:red;
+}
+
+
