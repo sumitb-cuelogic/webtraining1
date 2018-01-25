@@ -1,0 +1,89 @@
+
+.header{
+    height: 120px;
+    background-color:cyan;
+    color:gray;
+}
+
+.login{
+
+        text-align: right;
+         margin-right: 150px;   
+        
+    }
+.logininput{
+                margin-top:10px;
+                height: 30px;
+                font-size: 15px;
+}
+.labellogin{
+    padding-top: 20px;
+    text-align: right;
+    margin-right: 650px;
+}
+
+
+.loginb{
+    margin-left:20px;
+
+    width:100px;
+    height:30px;
+    margin-top: 5px;
+    border-color: green;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+
+.container{
+    width:500px;
+    margin:  0 auto;
+     color:gray;
+     margin-top:20px;
+}
+
+.inputtext{
+
+    width:350px;
+    height: 40px;
+    font-size: 18px;
+    margin:5px;
+    padding-left: 10px;
+  
+}
+
+.radiobutton{
+    margin-left:10px;
+
+ 
+}
+.profimg{
+    font-size: 18px;
+    margin:12px;
+    margin-left:10px;
+    color:red;
+    background-color:white;
+    border-style: none;
+}
+
+.registerb{
+
+    width:200px;
+    height:40px;
+    margin-top: 5px;
+     margin-left: 90px;
+    border-color: green;
+    border-radius: 19px;
+    background-color: white;
+    font-size: 18px;
+    border-width: 1px;
+  
+  
+           
+}      
+   #passmsg{
+        color:red;
+        margin-left: 50px;
+}
