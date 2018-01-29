@@ -65,6 +65,7 @@ function updateInfo(event){
         Allentries[userindex].lname=document.getElementById("lname").value;
         Allentries[userindex].address=document.getElementById("address").value;
         Allentries[userindex].image=document.getElementById("image").value;
+        
         localStorage.setItem("Allentries",JSON.stringify(Allentries[userindex]));
 
             alert("save changes succefully");

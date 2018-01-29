@@ -11,20 +11,17 @@ function registerUser(event)
         // alert("donechecing");
         var newdata=adddata();
         //window.alert("username is "+newdata.email)
-            var Allentries=JSON.parse(localStorage.getItem('Allentries'));
-           
+        Allentries=JSON.parse(localStorage.getItem('Allentries'));
             if(Allentries==undefined)
-            {
-                Allentries=new Array();
-                
-            }
+             Allentries=new Array();
 
+          
             Allentries.push(newdata);
             localStorage.setItem("Allentries",JSON.stringify(Allentries));
             username=newdata.email;
             localStorage.setItem("username",username);
             document.getElementById("formdata").reset();
-            location.href="./profile.html";
+            location.href="./home.html";
     }    
     else{
         alert("Please fill all required fields");
@@ -126,16 +123,13 @@ function validateUserLogin(event){
     var allentries=JSON.parse(localStorage.getItem("Allentries"));
     var index=searchUser(username,allentries);
 
-    //alert(index);
-
-        if((username==undefined) && (password==undefined))
-        {
-            alert("invaid data");
-        }
-        else if((username===(allentries[index].email)) && (password===(allentries[index].password)))
+    if(index==false){
+     alert("invalid data");
+       }
+        if((username===(allentries[index].email)) && (password===(allentries[index].password)))
         {
             alert("succesfully login");
-            //location.href="./home.html";
+            location.href="./home.html";
         }
         else{
             alert("invalid data");
